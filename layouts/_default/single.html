@@ -28,7 +28,7 @@
         <div class="mt-12">
             <div class="flex flex-wrap gap-2">
                 {{ range .Params.tags }}
-                <a href="/tags/{{ . | urlize }}/" class="px-2 py-1 text-xs bg-black/20 backdrop-blur-sm text-white border border-white/30 rounded-md hover:bg-white/30 transition-colors duration-200">
+                <a href="/tags/{{ . | urlize }}/" class="px-2 py-1 text-xs bg-black/20 backdrop-blur-sm text-white border border-white/30 rounded-md hover:bg-white/25 hover:text-black transition-colors duration-200">
                     {{ . }}
                 </a>
                 {{ end }}
