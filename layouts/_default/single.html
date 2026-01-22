@@ -1,0 +1,81 @@
+{{ define "main" }}
+<div class="w-1/2 mx-auto py-12">
+    {{ if eq .Section "blog" }}
+    <a href="/blog/" class="inline-flex items-center gap-2 mb-6 text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m15 18-6-6 6-6"/>
+        </svg>
+        Retour aux articles
+    </a>
+    {{ end }}
+    
+    <div class="max-w-3xl mx-auto p-8 border border-border-primary-light dark:border-border-primary-dark rounded-2xl bg-bg-primary-light dark:bg-bg-secondary-dark">
+        <h1 class="text-4xl font-bold mb-4 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
+        {{ if eq .Section "blog" }}
+            <div class="flex items-center gap-4 mb-8 text-text-secondary-light dark:text-text-secondary-dark">
+                {{ with .Params.author }}
+                <span class="ml-2"> {{ . }}</span>
+                {{ end }}
+                <time datetime="{{ .Date.Format "02-01-2006" }}">{{ .Date.Format "2 janvier 2006" }}</time>
+            </div>
+        {{ end }}
+        
+        <div class="prose prose-invert max-w-none">
+            {{ .Content }}
+        </div>
+        
+        {{ if .Params.tags }}
+        <div class="mt-12">
+            <div class="flex flex-wrap gap-2">
+                {{ range .Params.tags }}
+                <a href="/tags/{{ . | urlize }}/" class="px-2 py-1 text-xs bg-black/20 backdrop-blur-sm text-white border border-white/30 rounded-md hover:bg-white/30 transition-colors duration-200">
+                    {{ . }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .prose {
+        color: #4b5563; /* text-secondary-light */
+        font-size: 1.125rem;
+    }
+    html.dark .prose {
+        color: #9ca3af; /* text-secondary-dark */
+    }
+    .prose p {
+        color: #4b5563; /* text-secondary-light */
+        margin-bottom: 1.5rem;
+        line-height: 1.9;
+    }
+    html.dark .prose p {
+        color: #9ca3af; /* text-secondary-dark */
+    }
+    .prose h2 {
+        color: #1f2937; /* text-primary-light */
+        font-size: 1.875rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    html.dark .prose h2 {
+        color: #f9fafb; /* text-primary-dark */
+    }
+    .prose h3 {
+        color: #1f2937;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    html.dark .prose h3 {
+        color: #f9fafb;
+    }
+    .prose p + p {
+        margin-top: 2rem;
+    }
+</style>
+{{ end }}

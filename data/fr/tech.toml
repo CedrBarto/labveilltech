@@ -1,0 +1,17 @@
+# Carousel de technologies - Rangée supérieure
+row1 = [
+  { icon = "devicon-figma-plain", name = "Figma" },
+  { icon = "devicon-visualstudio-plain", name = "Visual Studio" },
+  { icon = "devicon-html5-plain", name = "HTML" },
+  { icon = "devicon-css3-plain", name = "CSS" },
+  { icon = "devicon-vuejs-plain", name = "Vue.js" }
+]
+
+# Carousel de technologies - Rangée inférieure
+row2 = [
+  { icon = "devicon-github-original", name = "GitHub" },
+  { icon = "devicon-notion-plain", name = "Notion" },
+  { icon = "devicon-openai-plain", name = "ChatGPT" },
+  { icon = "devicon-anthropic-plain", name = "Claude" },
+  { icon = "devicon-miro-plain", name = "Miro" }
+]

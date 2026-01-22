@@ -1,0 +1,37 @@
+baseURL = "https://example.com"
+languageCode = 'fr-fr'
+title = 'Cédric - Portfolio & Blog'
+theme = 'hugo-noir'
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
+
+defaultContentLanguage = "fr"
+
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  name = "Cédric Bartolacelli"
+  location = "Lausanne"
+  description = "UX/UI Design, Music, DJing, Vinyl Collector, 70s & 80s vintage enthusiast"
+  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/CedrBarto"
+  linkedin = "https://www.linkedin.com/in/c%C3%A9dric-bartolacelli/"
+  bento = "https://bento.me/cedric-bartolacelli"
+
+
+# Menu principal
+[menu]
+  [[menu.main]]
+    name = "À Propos"
+    url = "/a-propos/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2 
