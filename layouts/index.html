@@ -7,10 +7,10 @@
         <title>Cédric - Portfolio &amp; Blog</title>
         
         
-        <link rel="apple-touch-icon" sizes="180x180" href="//localhost:1313/favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon_io/favicon-16x16.png">
-        <link rel="manifest" href="//localhost:1313/favicon_io/site.webmanifest">        
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ "favicon_io/apple-touch-icon.png" | relURL }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon_io/favicon-32x32.png" | relURL }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon_io/favicon-16x16.png" | relURL }}">
+        <link rel="manifest" href="{{ "favicon_io/site.webmanifest" | relURL }}">        
         <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
         <link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" as="style">            
         <style>
@@ -125,7 +125,7 @@
                 
                 
                 
-                <a href="//localhost:1313/" class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-300">
+                <a href="{{ "/" | relURL }}" class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-300">
                     Cédric Bartolacelli
                 </a>
                 
@@ -139,9 +139,9 @@
             
             <nav class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-6">
                 
-                <a href="//localhost:1313/a-propos/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">À Propos</a>
+                <a href="{{ "a-propos/" | relURL }}" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">À Propos</a>
                 
-                <a href="//localhost:1313/blog/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Blog</a>
+                <a href="{{ "blog/" | relURL }}" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Blog</a>
                 
             </nav>
             <div class="hidden md:flex justify-end items-center">
@@ -184,9 +184,9 @@
             </div>
             <nav class="flex flex-col p-6 space-y-4">
                 
-                <a href="//localhost:1313/a-propos/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>À Propos</a>
+                <a href="{{ "a-propos/" | relURL }}" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>À Propos</a>
                 
-                <a href="//localhost:1313/blog/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Blog</a>
+                <a href="{{ "blog/" | relURL }}" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Blog</a>
                 
             </nav>
             <div class="mt-auto p-6">
