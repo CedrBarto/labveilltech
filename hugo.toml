@@ -4,8 +4,8 @@ title = 'Cédric - Portfolio & Blog'
 theme = 'hugo-noir'
 
 # URL handling
-relativeURLs = false
-canonifyURLs = true
+relativeURLs = true
+canonifyURLs = false
 
 defaultContentLanguage = "fr"
 
