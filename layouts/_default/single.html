@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="w-1/2 mx-auto py-12">
+    <!-- Bouton remonter en haut déplacé en bas à droite -->
     {{ if eq .Section "blog" }}
     <a href="/blog/" class="inline-flex items-center gap-2 mb-6 text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -22,6 +23,7 @@
         
         <div class="prose prose-invert max-w-none">
             {{ .Content }}
+                <hr class="dynamic-hr" />
         </div>
         
         {{ if .Params.tags }}
@@ -34,6 +36,10 @@
                 {{ end }}
             </div>
         </div>
+
+            <button id="scrollTopBtn" class="scroll-top-btn-fixed" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                ↑
+            </button>
         {{ end }}
     </div>
 </div>
@@ -77,5 +83,69 @@
     .prose p + p {
         margin-top: 2rem;
     }
+        .dynamic-hr {
+               border: none;
+               border-top: 1px solid rgba(245, 222, 179, 0.5); /* beige #f5deb3, 50% transparent */
+               margin: 2em 0 0 0;
+               background: transparent;
+               transition: border-color 0.3s;
+        }
+            html.dark .dynamic-hr {
+               border-top: 1px solid rgba(156, 163, 175, 0.4); /* gris #9ca3af, 40% transparent */
+        }
+    .scroll-top-btn {
+        display: inline-block;
+        padding: 0.5em 1.2em;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 999px;
+        border: none;
+        background: rgba(245, 222, 179, 0.8); /* beige clair */
+        color: #222;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s;
+    }
+    .scroll-top-btn:hover {
+        background: rgba(245, 222, 179, 1);
+        color: #773a35;
+    }
+    html.dark .scroll-top-btn {
+        background: rgba(156, 163, 175, 0.2); /* gris foncé */
+        color: #eee;
+    }
+    html.dark .scroll-top-btn:hover {
+        background: rgba(156, 163, 175, 0.4);
+        color: #f2c3a4;
+    }
+        .scroll-top-btn-fixed {
+            position: fixed;
+            right: 2.5em;
+            bottom: 2em;
+            z-index: 100;
+            display: inline-block;
+            padding: 0.7em 1.5em;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border-radius: 999px;
+            border: none;
+            background: rgba(245, 222, 179, 0.8); /* beige clair */
+            color: #773a35;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+        .scroll-top-btn-fixed:hover {
+            background: rgba(245, 222, 179, 1);
+            color: #773a35;
+        }
+        html.dark .scroll-top-btn-fixed {
+            background: rgba(156, 163, 175, 0.2); /* gris foncé */
+            color: #eee;
+        }
+        html.dark .scroll-top-btn-fixed:hover {
+            background: rgba(156, 163, 175, 0.4);
+            color: #eee;
+        }
 </style>
 {{ end }}

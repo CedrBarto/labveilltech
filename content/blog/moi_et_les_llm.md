@@ -11,13 +11,13 @@ weight: 1
 
 ### Comment utiliser intelligemment les LLM pour me former dans mon domaine ?
 
-Il est vrai que dès l’apparition constant des LLM dans mon quotidien, ils ont vite pris une place importante dans les nombreuses tâches et projets que je dois réaliser. Il en va de les utiliser sans réflexion derrière simplement dans un but de rapidité et d’autonomie. Mais est-il vraiment efficace de les utiliser ainsi ? Pour honnête je ne pense pas et je ne pense pas non plus qu’ils aient été pensé ainsi. 
+Il est vrai que dès l’apparition constant des LLM dans mon quotidien, ils ont vite pris une place importante dans les nombreuses tâches et projets que j'ai dû réaliser. Il en va de les utiliser sans réflexion derrière, simplement dans un but de rapidité et d’autonomie. Mais est-il vraiment efficace de les utiliser ainsi ? Pour honnête je ne pense pas et je ne pense pas non plus qu’ils aient été pensé ainsi. 
 
-Me dirigeant dans un domaine créatif, l’utilisation de ces derniers devrait me permettre une gain d’efficacité, certes, mais en ayant toujours conscience de me choix et de mes actes. Si je cherche, par exemple à concevoir une maquette Figma sur un produit donc le domaine d’activité n’est pas celui que je côtoye le plus, les LLM pourraient m’être utile dans l’organisation de mes recherches afin d’avoir un plan de mes tâches.
+Me dirigeant dans un domaine créatif, l’utilisation de ces derniers devrait me permettre une gain d’efficacité, certes, mais en ayant toujours conscience de me choix et de mes actes. Si je cherche, par exemple à concevoir une maquette Figma sur un produit dont le domaine d’activité n’est pas celui que je côtoye le plus, les LLM pourraient m’être utile dans l’organisation de mes recherches afin d’avoir un plan de mes tâches.
 
 ### Quels dangers de les utiliser pour me former ?
 
-Mais attention à ne pas tomber dans cette dépendance où nous percevons l’au delà d’une simple aide que nous pouvons bénéficier à une aide que nous devons utiliser et qui, ferait office de cerveau, et nous de correcteur.
+Mais attention à ne pas tomber dans cette dépendance, où nous percevons l’au delà d’une simple aide que nous pouvons bénéficier à une aide que nous devons utiliser et, qui ferait office de cerveau et nous de correcteur.
 
 ### Quelles techniques pour m’assurer d’apprendre
 

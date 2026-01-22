@@ -4,7 +4,7 @@
 
     <div class="flex flex-col gap-8">
         <div class="flex-grow">
-            <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-8 mb-8">
+            <div class="p-0 m-0 mb-20">
                 <div class="prose prose-invert prose-xl max-w-none">
                     <div>
                         {{ .Content }}
@@ -19,7 +19,7 @@
         <div class="flex-grow">
             <h2 class="text-3xl font-bold mb-10 text-text-primary-light dark:text-text-primary-dark">{{ .Params.section2.title }}</h2>
             {{ if .Params.section2.image }}
-            <div class="mb-8">
+            <div class="mb-20">
                 <img src="{{ .Params.section2.image }}" alt="{{ .Params.section2.title }}" class="w-2/3 mx-auto rounded-lg">
             </div>
             {{ end }}

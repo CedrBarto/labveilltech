@@ -26,3 +26,7 @@ Il y a aussi Figma Make, Un coup de boost pour les designers. L'idée n'est pas 
 
 Avec des outils comme Figma Buzz pour le contenu et Draw pour l'illustration, Figma veut que ses utilisateurs actuels ou futurs prennent par et reste dans son écosystème pour toutes tâches.
 Ce que je retiens, c'est que le métier de designer va de moins en moins être pointilleux sur le peaufinage mais de plus en plus à devoir gérer des outils. Si ce dernier s'occupe de la partie technique et de l'exécution pure, on se concentrera davantage sur l’autre facette du métier : l'expérience utilisateur et la stratégie produit.
+
+&nbsp;
+
+**Article concerné** :  *https://www.elias.studio/blog/post/figma-make-buzz-la-creation-web-passe-en-mode-full-power*

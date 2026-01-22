@@ -13,8 +13,8 @@ section3:
 
 ##
 
-Salut à toi nouvel arrivant ! Moi c'est **Cédric**.
-J'ai 25 ans et je suis actuellement étudiant en ingénierie des médias à la HEIG-VD à Yverdon.
+**Salut à toi nouvel arrivant ! Moi c'est Cédric.**
+**J'ai 25 ans et je suis actuellement étudiant en ingénierie des médias à la HEIG-VD à Yverdon.**
 
-La diversité de ces études me permet de combiner la technique, la communication et la créativité. 
-J'ai surtout un intérêt particulier pour la conception UX/UI, car j'aime analyser d'abord et réfléchir ensuite afin de créer des produits efficaces et user-friendly. 
+**La diversité de ces études me permet de combiner la technique, la communication et la créativité.**
+**J'ai surtout un intérêt particulier pour la conception UX/UI, car j'aime analyser d'abord et réfléchir ensuite afin de créer des produits efficaces et user-friendly.**

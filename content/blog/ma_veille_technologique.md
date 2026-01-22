@@ -11,13 +11,13 @@ weight: 2
 
 ### De l'UX/UI au Product Design : Comment je structure ma veille technologique
 
-Aujourd’hui, rester à jour en tant que designer, ce n’est plus seulement regarder les magnifiques portfolio des autres sur les réseaux ou attendre la news ultime. C’est en effet vers le métier de Product Designer que je me vois travailler et j’ai réalisé que ma veille devait évoluer si voulais rester à jour dans les conversations qui en découle. Ce n’est plus seulement l'inspiration visuelle qui est intéressante, mais aussi comprendre les mécaniques derrière les produits qui réussissent.
+Aujourd’hui, rester à jour en tant que designer, ce n’est plus seulement regarder les magnifiques portfolio des autres sur les réseaux ou attendre la news ultime. C’est, en effet, vers le métier de Product Designer que je me vois travailler et j’ai réalisé que ma veille devait évoluer si je voulais rester à jour dans les conversations qui en découle. Ce n’est plus seulement l'inspiration visuelle qui est intéressante, mais aussi comprendre les mécaniques derrière les produits qui réussissent.
 
 ### Ma veille aujourd’hui
 
-Pour l’instant, ma veille est assez simpliste, même très maigre. Je m’informe principalement via Instagram et LinkedIn. 
-- **Instagram** : Je suis des comptes qui partagent des "tips" UI rapides ou qui mettent en avant les meilleurs sites à connaitre etc. Disons, que c’est sympa quand on en a besoin.
-- **LinkedIn** : C’est là que je capte l’actu qui pop un peu. Je lis les posts de designers qui tombent dans mon feed, je regarde les nouveaux outils qui sortent et je m'imprègne des débats sur l'IA ou l'utilisabilité que les gens ont tendance à rédiger.
+Pour l’instant, ma veille est assez simpliste, même très maigre à vrai dire. Je m’informe principalement via Instagram et LinkedIn. 
+- **Instagram** : Je suis des comptes qui partagent des tips UI rapides ou qui mettent en avant les meilleurs sites à connaitre. Disons, que c’est sympa quand on en a besoin.
+- **LinkedIn** : C’est là que je capte l’actu qui pop un peu, quand je me décide à ouvrir ce réseau. Je lis les posts de designers qui tombent dans mon feed, je regarde les nouveaux outils qui sortent et je m'imprègne des débats sur l'IA ou l'utilisabilité que les gens ont tendance à rédiger.
 
 - C'est peut-être une bonne base, mais pas suffisant quand il s’agit de vraiment être à jour et comprendre ce pourquoi ces nouvelles fonctionnalités ou technologies voient le jour.
 
