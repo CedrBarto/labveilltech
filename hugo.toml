@@ -1,10 +1,10 @@
-baseURL = "https://cedrbarto.github.io/labveilltech/"
+baseURL = "https://cedrbarto.github.io/labveilltech"
 languageCode = 'fr-fr'
 title = 'Cédric - Portfolio & Blog'
 theme = 'hugo-noir'
 
 # URL handling
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 
 defaultContentLanguage = "fr"
